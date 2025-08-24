@@ -23,7 +23,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git push https://${{ secrets.GH_PAT }}@github.com/kilhwan6/Algorithm.git #2. 내 깃허브 아이디와 레포지토리 설정
+        git push https://${{ secrets.GH_PAT }}@github.com/m4rgheri7a/velog.git #2. 내 깃허브 아이디와 레포지토리 설정
 
     - name: Set up Python
       uses: actions/setup-python@v2
